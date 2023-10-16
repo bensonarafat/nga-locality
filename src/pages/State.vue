@@ -234,7 +234,7 @@ export default {
                         <button
                             @click="removeItem('bordering_states', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -262,7 +262,7 @@ export default {
                         <button
                             @click="removeItem('national_resources', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -285,7 +285,7 @@ export default {
                         <button
                             @click="removeItem('universities', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -308,7 +308,7 @@ export default {
                         <button
                             @click="removeItem('polytechnics', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -331,7 +331,7 @@ export default {
                         <button
                             @click="removeItem('airports', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -354,7 +354,7 @@ export default {
                         <button
                             @click="removeItem('hospitals', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -377,7 +377,7 @@ export default {
                         <button
                             @click="removeItem('languages', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -405,7 +405,7 @@ export default {
                         <button
                             @click="removeItem('ethnic_groups', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -428,7 +428,7 @@ export default {
                         <button
                             @click="removeItem('religions', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2  py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
