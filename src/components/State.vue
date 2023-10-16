@@ -16,7 +16,7 @@ export default {
     methods:{
         async fetchStates() : Promise<void> {
             try {
-                const states = await axios.get(`${this.endpoint}all`);
+                const states = await axios.get(`${this.endpoint}all-state`);
                 this.states = states.data;
                 this.pending = false;
             } catch (_) {
