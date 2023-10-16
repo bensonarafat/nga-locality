@@ -228,13 +228,13 @@ export default {
                         v-for="(item, index) in bordering_states"
                         :key="index"
                         id="badge-dismiss-red"
-                        class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded"
+                        class="inline-flex items-center px-2 py-1 my-5 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded"
                     >
                         {{ item }}
                         <button
                             @click="removeItem('bordering_states', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -256,13 +256,13 @@ export default {
                         v-for="(item, index) in national_resources"
                         :key="index"
                         id="badge-dismiss-red"
-                        class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded"
+                        class="inline-flex items-center px-2 py-1 my-5 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded"
                     >
                         {{ item }}
                         <button
                             @click="removeItem('national_resources', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -280,12 +280,12 @@ export default {
                         <p class="font-bold">Universities</p>
                     </div>
                     <hr class="my-5" />
-                    <span v-for="(item, index) in universities" :key="index" id="badge-dismiss-red" class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
+                    <span v-for="(item, index) in universities" :key="index" id="badge-dismiss-red" class="inline-flex items-center px-2 py-1 mr-2 my-5 text-sm font-medium text-red-800 bg-red-100 rounded">
                         {{ item }}
                         <button
                             @click="removeItem('universities', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -303,12 +303,12 @@ export default {
                         <p class="font-bold">Polytechnics</p>
                     </div>
                     <hr class="my-5" />
-                    <span v-for="(item, index) in polytechnics" :key="index" id="badge-dismiss-red" class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
+                    <span v-for="(item, index) in polytechnics" :key="index" id="badge-dismiss-red" class="inline-flex items-center px-2 py-1 my-5 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
                         {{ item }}
                         <button
                             @click="removeItem('polytechnics', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -326,12 +326,12 @@ export default {
                         <p class="font-bold">Airports</p>
                     </div>
                     <hr class="my-5" />
-                    <span v-for="(item, index) in airports" :key="index" id="badge-dismiss-red" class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
+                    <span v-for="(item, index) in airports" :key="index" id="badge-dismiss-red" class="inline-flex items-center my-5 px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
                         {{ item }}
                         <button
                             @click="removeItem('airports', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -349,12 +349,12 @@ export default {
                         <p class="font-bold">Hospitals</p>
                     </div>
                     <hr class="my-5" />
-                    <span v-for="(item, index) in hospitals" :key="index" id="badge-dismiss-red" class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
+                    <span v-for="(item, index) in hospitals" :key="index" id="badge-dismiss-red" class="inline-flex items-center my-5 px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
                         {{ item }}
                         <button
                             @click="removeItem('hospitals', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -372,12 +372,12 @@ export default {
                         <p class="font-bold">Languages</p>
                     </div>
                     <hr class="my-5" />
-                    <span v-for="(item, index) in languages" :key="index" id="badge-dismiss-red" class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
+                    <span v-for="(item, index) in languages" :key="index" id="badge-dismiss-red" class="inline-flex items-center my-5 px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
                         {{ item }}
                         <button
                             @click="removeItem('languages', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -399,13 +399,13 @@ export default {
                         v-for="(item, index) in ethnic_groups"
                         :key="index"
                         id="badge-dismiss-red"
-                        class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded"
+                        class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 my-5 rounded"
                     >
                         {{ item }}
                         <button
                             @click="removeItem('ethnic_groups', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2 py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
@@ -423,12 +423,12 @@ export default {
                         <p class="font-bold">Religions</p>
                     </div>
                     <hr class="my-5" />
-                    <span v-for="(item, index) in religions" :key="index" id="badge-dismiss-red" class="inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
+                    <span v-for="(item, index) in religions" :key="index" id="badge-dismiss-red" class="my-5 inline-flex items-center px-2 py-1 mr-2 text-sm font-medium text-red-800 bg-red-100 rounded">
                         {{ item }}
                         <button
                             @click="removeItem('religions', item)"
                             type="button"
-                            class="inline-flex items-center p-1 ml-2  py-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
+                            class="inline-flex items-center p-1 ml-2 text-sm text-red-400 bg-transparent rounded-sm hover:bg-red-200 hover:text-red-900"
                             data-dismiss-target="#badge-dismiss-red"
                             aria-label="Remove"
                         >
