@@ -25,8 +25,10 @@ export default {
             this.fetching = true;
             const response =  await axios.get(`${this.endpoint}state/${this.$route.params.id}`);
             const state = response.data;
-            this.governor = state.politics.governor;
-            this.deputy_governor = state.politics.deputy_governor;
+            if(state.politics){
+                this.governor = state.politics.governor;
+                this.deputy_governor = state.politics.deputy_governor;
+            }
             this.fetching  = false;
         },
         clear() {
@@ -133,7 +135,7 @@ export default {
               </div>
             </div>
           </form>
-          <div v-else>
+          <div v-else class="flex justify-center">
             <img src="/image/loader.gif" alt="loading" width="30">
           </div>
         </div>
