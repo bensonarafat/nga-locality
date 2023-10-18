@@ -32,7 +32,7 @@ export default {
       </div>
       <div :class="{'hidden': !showMenu}" class="w-full block flex-grow lg:flex lg:items-center lg:w-auto">
         <div class="text-sm lg:flex-grow">
-          <a href="#responsive-header" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
+          <a href="https://documenter.getpostman.com/view/16950503/2s9YR6cFHP" target="_blank" class="block mt-4 lg:inline-block lg:mt-0 mr-4">
             Postman
           </a>
         </div>
