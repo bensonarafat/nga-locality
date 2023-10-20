@@ -16,6 +16,8 @@ The  Nigeria State, Town, and Local Government Area App is a web application bui
 
  - User-Friendly Interface: The user interface is intuitive and easy to navigate, ensuring a smooth user experience.
 
+Read more: [here](https://bensonarafat.medium.com/using-the-nigeria-state-town-and-local-government-api-d73451696c54)
+
 ## Getting Started
 ### Prerequisites
 Before you can run this application, you'll need to have the following tools installed:
@@ -65,7 +67,6 @@ If you'd like to contribute to the Vue Nigeria State, Town, and Local Government
  
 - Be responsive to any feedback or questions during the review process.
 
-Read more: [here](https://bensonarafat.medium.com/using-the-nigeria-state-town-and-local-government-api-d73451696c54)
 
 You can also make a contribution to the API [here](https://github.com/bensonarafat/nigeria_states_towns_lgas)
 
