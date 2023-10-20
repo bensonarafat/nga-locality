@@ -65,7 +65,9 @@ If you'd like to contribute to the Vue Nigeria State, Town, and Local Government
  
 - Be responsive to any feedback or questions during the review process.
 
-You can also make contribution to the API [here](https://github.com/bensonarafat/nigeria_states_towns_lgas)
+Read more: [here](https://bensonarafat.medium.com/using-the-nigeria-state-town-and-local-government-api-d73451696c54)
+
+You can also make a contribution to the API [here](https://github.com/bensonarafat/nigeria_states_towns_lgas)
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
