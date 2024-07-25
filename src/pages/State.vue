@@ -23,7 +23,7 @@ export default {
             languages: [] as Array<string>,
             ethnic_groups: [] as Array<string>,
             religions: [] as Array<string>,
-            endpoint: "https://nigeria-states-towns-lga.onrender.com/api/" as string,
+            endpoint: "https://nigeria-states-towns-lgas.onrender.com/api/" as string,
         }
     }, 
     mounted(){

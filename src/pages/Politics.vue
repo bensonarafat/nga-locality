@@ -12,7 +12,7 @@ export default {
             deputy_governor:  null as string | null, 
             id: "" as string,
             fetching: true as boolean,
-            endpoint: "https://nigeria-states-towns-lga.onrender.com/api/" as string,
+            endpoint: "https://nigeria-states-towns-lgas.onrender.com/api/" as string,
         }
     }, 
     mounted(){

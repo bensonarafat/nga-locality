@@ -11,7 +11,7 @@ export default {
             type: null as String | null, 
             name: null as String | null, 
             id: "" as string,
-            endpoint: "https://nigeria-states-towns-lga.onrender.com/api/" as string,
+            endpoint: "https://nigeria-states-towns-lgas.onrender.com/api/" as string,
         }
     }, 
     mounted(){

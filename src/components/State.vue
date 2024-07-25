@@ -7,7 +7,7 @@ export default {
         return {
             pending : true as boolean, 
             states : {} as State[],
-            endpoint: 'https://nigeria-states-towns-lga.onrender.com/api/' as string,
+            endpoint: 'https://nigeria-states-towns-lgas.onrender.com/api/' as string,
         }
     }, 
     created(){

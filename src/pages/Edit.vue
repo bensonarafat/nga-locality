@@ -18,7 +18,7 @@ export default {
         population: null  as string | null, 
         postal_code: null  as string | null, 
         id: "" as string,
-        endpoint: "https://nigeria-states-towns-lga.onrender.com/api/" as String,
+        endpoint: "https://nigeria-states-towns-lgas.onrender.com/api/" as String,
     }
   }, 
   created (){
