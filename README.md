@@ -1,12 +1,5 @@
 # Nigeria Locality App
 
-> ## Important!! Important
-> If you currently trying to access this API but not going. This is because i just hit a limit on render and i need to subscribe to their plan.
-> Its not of me to ask but i can't do anything right now.
-> You could read my post and support the API so i can go back online here -> https://buymeacoffee.com/bensonarafat/help-nigeria-state-local-api
-> Thanks,
-> Ben. 
-
 Frontend for Nigeria Locality API. Live Update of the API
 
 ## Overview
